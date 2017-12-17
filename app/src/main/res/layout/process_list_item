@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/processname0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Process name : "
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="1dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/processname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="leitourgika"
+        android:layout_toRightOf="@+id/processname0"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="1dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/pid0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/processname"
+        android:text="PID : "
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:padding="1dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/pid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/pid0"
+        android:layout_below="@+id/processname"
+        android:text="11542"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:padding="1dp"
+        />
+
+    <TextView
+        android:id="@+id/ram0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pid"
+        android:text="Ram usage : "
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:padding="1dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ram0"
+        android:layout_below="@+id/pid"
+        android:text="15 MB "
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:padding="1dp"
+        />
+
+</RelativeLayout>
